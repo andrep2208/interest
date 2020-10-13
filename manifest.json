@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Interest",
+    "description": "interest.co.nz",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://www.interest.co.nz/*"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+}
