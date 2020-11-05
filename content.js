@@ -28,6 +28,8 @@ function removeElem() {
         removeElementById('pp-ablock-banner-wrapper');
         removeElementById('block-press-patron-presspatron-ablock-banner')
         removeElementByClass();
+        var blackOverlay = getElementByXpath("/html/body/div[3]/div/div/div/div[1]/div[2]/div/div[1]/div/div[6]");
+        blackOverlay.remove();
 
     }
 }
